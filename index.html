@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sellfy Email Template">
+    <meta name="author" content="Sellfy">
+    <meta name="keywords" content="SELLFY , E-commerce , Email Template ,Discount ">
+    <title>SELLFY Email Template</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap');
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .link {
+        font-size: inherit;
+        font-family: inherit;
+        text-decoration: none;
+        cursor: auto;
+      }
+
+      .highlight {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .container {
+        max-width: 600px;
+        background-color: #FFF;
+        margin: 0px auto;
+      }
+
+      .header {
+        background-image: url("./images/11-01\ 1.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 16px;
+      }
+
+      .header .logo {
+        width: 150px;
+        margin-block-end: 18px;
+      }
+
+      .header p {
+        font-weight: 300;
+        font-size: 13px;
+        color: #F4F4F4;
+        width: 340px;
+      }
+
+      .header .laptop {
+        width: 230px;
+      }
+
+      .section-one {
+        padding-block: 60px;
+        position: relative;
+      }
+
+      .address {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-block-end: 25px;
+      }
+
+      .address h2 {
+        font-weight: 600;
+        font-size: 24px;
+        color: #000;
+        line-height: 21px;
+      }
+
+      .address img {
+        width: 24px;
+        margin-inline-end: 8px;
+      }
+
+      .section-one .description {
+        width: 480px;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        margin-inline: auto;
+        color: #5E5E5E;
+      }
+
+      .section-one .description #logo {
+        color: #00B140;
+        display: inline;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .section-one .description #g-1 {
+        color: #4585E7;
+      }
+
+      .section-one .description #o-1 {
+        color: #D54837;
+      }
+
+      .section-one .description #o-2 {
+        color: #F0C31F;
+      }
+
+      .section-one .description #g-2 {
+        color: #689BEA;
+      }
+
+      .section-one .description #l {
+        color: #479F5C;
+      }
+
+      .section-one .description #e {
+        color: #DB6A5D;
+      }
+
+      .section-one::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 70%;
+        transform: translateX(-50%);
+        height: 1px;
+        background-color: #E2E2E2;
+      }
+
+      .section-one .amazed {
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .section-two {
+        padding-block: 60px;
+      }
+
+      .section-two .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-inline: auto;
+      }
+
+      .section-two .description .p-one {
+        width: 370px;
+        text-align: center;
+        margin-inline: auto;
+        font-weight: 400;
+        font-size: 16px;
+        color: #7B7B7B;
+      }
+
+      .section-two .descount-img {
+        width: 230px;
+        margin-block: 33px;
+        margin-inline: auto;
+        animation-name: top-buttom;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      .section-two #free {
+        color: #FAA515;
+      }
+
+      .section-two .description .p-two {
+        text-align: center;
+        margin-inline: auto;
+        width: 500px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #7B7B7B;
+      }
+
+      .section-two .description .p-two img {
+        margin-bottom: -4px;
+      }
+
+      .section-two #partner {
+        color: #FAA515;
+      }
+
+      .section-two #win {
+        display: block;
+        margin-block-start: 7px;
+        font-weight: 600;
+      }
+
+      .footer {
+        background-image: url("./images/123-01\ 1.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px 17px;
+        position: relative;
+      }
+
+      .footer p {
+        font-weight: 500;
+        font-size: 22px;
+        color: #333333;
+        width: 325px;
+      }
+
+      .footer #footer-h {
+        color: #FFF;
+      }
+
+      .footer button {
+        background: rgba(0, 177, 64, 0.43);
+        border: none;
+        padding: 12px 15px;
+        border-radius: 5px;
+        margin-inline-start: auto;
+        display: block;
+        margin-inline-end: 20px;
+      }
+
+      .footer button a {
+        text-decoration: none;
+        color: #FFF;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      .footer img {
+        position: absolute;
+        right: 32px;
+        top: 75px;
+        width: 50px;
+      }
+
+      .social-media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 18px;
+      }
+
+      .social-media .social img {
+        width: 18px;
+      }
+
+      .social-media .social a:not(:last-child) {
+        margin-inline-end: 20px;
+      }
+
+      @keyframes top-buttom {
+        from {
+          /* margin-block-top: 0px; */
+          transform: translateY(-10px);
+        }
+
+        to {
+          transform: translateY(10px);
+          /* margin-block-top: 20px; */
+        }
+      }
+
+      @media (max-width: 590px) {
+        .header {
+          flex-direction: column;
+        }
+
+        .header p {
+          width: 100%;
+          margin-block-end: 20px;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .section-one h2 {
+          font-size: 20px;
+        }
+
+        .section-one .description {
+          width: 80%;
+          font-size: 15px;
+        }
+
+        .section-two h2 {
+          font-size: 20px;
+        }
+
+        .section-two .description .p-one {
+          width: 80%;
+          font-size: 15px;
+        }
+
+        .section-two .description .p-two {
+          width: 80%;
+          font-size: 15px;
+        }
+
+        .footer p {
+          font-size: 16px;
+        }
+
+        .footer img {
+          top: 45px;
+          width: 30px;
+        }
+      }
+
+      .unsubscribe {
+        background-color: #F4F4F4;
+        padding: 15px 10px;
+      }
+
+      .unsubscribe p {
+        font-weight: 500;
+        font-size: 10px;
+        color:#333333;
+      }
+
+      .unsubscribe a {
+        color: #0081FF;
+      }
+
+      @media (max-width: 450px) {
+        .header .image {
+          display: none;
+        }
+
+        .footer p {
+          width: 80%;
+          margin-block-end: 10px;
+        }
+
+        .footer img {
+          top: 50px;
+          width: 25px;
+        }
+      }
+
+      @media (max-width: 370px) {
+        .section-two h2 {
+          font-size: 16px;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="desc">
+          <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+            <img src="./images/5f969565846a87daea80b4a1_logotype 1.svg" alt="logo" class="logo" width="152" height="52">
+          </a>
+          <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+            <p>Get your E-commerce store up and running in 5 minutes.
+              Reach our audience and sell directly on social media, your website, or anywhere else with a personalized
+              storefront.</p>
+          </a>
+        </div>
+        <div class="image">
+          <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+            <img src="./images/lapsvg 1.svg" alt="laptop" class="laptop" width="240" height="161">
+          </a>
+        </div>
+      </div>
+      <div class="section-one">
+        <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+          <div class="address">
+            <img src="./images/lightbulb 1.svg" alt="lightbulb" width="24" height="24">
+            <h2>Have you ever</h2>
+          </div>
+        </a>
+        <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+          <p class="description">
+            considered starting an E-commerce business where you can sell digital and physical products,
+            or even offer print-on-demand services?
+            Have you heard of <span id="logo">Sellfy</span> ? If not, take a few minutes to <span id="g-1">G</span><span
+              id="o-1">o</span><span id="o-2">o</span><span id="g-2">g</span><span id="l">l</span><span id="e">e</span>
+            it
+            and <span class="amazed">you will BE amazed.</span>
+          </p>
+        </a>
+      </div>
+      <div class="section-two">
+        <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+          <div class="address">
+            <img src="./images/price-tag (1) 1.svg" alt="price-tag" width="24" height="24">
+            <h2>35% Discount - Limited Offer</h2>
+          </div>
+        </a>
+        <div class="description">
+          <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+            <p class="p-one">
+              No credit card required. Sign up for <span id="free" class="highlight">FREE</span> now,
+              When you purchase a yearly business plan
+            </p>
+          </a>
+          <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+            <img src="./images/Group 20.svg" alt="discount" class="descount-img" width="231.01" height="118.57">
+          </a>
+          <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+            <p class="p-two">
+              No scam or BS. We're simply a Sellfy affiliate <span id="partner" class="highlight">Partner</span>,
+              so when you buy, we make a small commission. But in return, we offer you the best offers and discounts.
+              <span class="highlight" id="win">It's a WIN , win! <img src=" ./images/image 1356.svg" alt="celebrate"
+                  width="20" height="20"></span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+          <p><span id="footer-h">E-commerce</span> is the best way to make money online nowadays, so don't miss this
+            opportunity. Take
+            action today!
+          </p>
+        </a>
+        <img src="./images/Subtract.svg" alt="subtract" width="64.86" height="64.86">
+        <button><a href="https://get.sellfy.com/sign-up2802" target="_blank">Sign up now</a></button>
+      </div>
+      <div class="social-media">
+        <a href="https://get.sellfy.com/ehwj9z7843re" class="link" target="_blank">
+          <div class="logo">
+            <img src="./images/5f969565846a87daea80b4a1_logotype.svg" alt="logo">
+          </div>
+        </a>
+        <div class="social">
+          <a href="https://www.facebook.com/SellfyHQ?mibextid=LQQJ4d" target="_blank"><img src="./images/IMAGE (1).svg"
+              alt="facebook" width="18" height="18"></a>
+          <a href="https://twitter.com/Sellfy" target="_blank"><img src="./images/Clip path group.svg" alt="twitter"
+              width="21" height="16.84"></a>
+          <a href="https://www.instagram.com/sellfyhq/?hl=en" target="_blank"><img src="./images/IMAGE.svg"
+              alt="instgram" width="18" height="18"></a>
+        </div>
+      </div>
+      <div class="unsubscribe">
+        <p>If you do not wish to receive such emails in future, please <a href="">Unsubscribe Here</a></p>
+      </div>
+    </div>
+  </body>
+
+</html>
